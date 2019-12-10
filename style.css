@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Merriweather', serif;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: #fff;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 150vh;
+}
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+.row{
+	margin: 0 auto;
+	max-width: 1180px;
+}
+/* Add logo margin height width float*/
+.main-nav{
+	     float: right;
+	     margin-top: 60px;
+}
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 70px;
+}
+.main-nav li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 100px;
+}
+.main-nav li a:hover{
+	border-bottom: 2px solid #bf55ec;
+}
+.main-content-header{
+	margin-top: 40px;
+	padding-left: 30px;
+	text-align: center;
+	
+}
+h1{
+	color: #fff;
+	font-size: 54px;
+	word-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color0.2;
+}
+.btn-full{
+	background-color: transparent;
+	color: #bf55ec;
+	margin-right: 25px;
+	border: 1px solid #bf55ec;
+}
+.btn-full:hover{
+	background-color: #fff;
+}
+.color-change{
+	animation: colorchangemsrr 1s infinite;
+}
+@keyframes colorchangemsrr{
+0%{ color: red; }
+25%{color: #bf55ec;}
+75%{color: #fff;}
+100%{color: #bf55ec;}
+}
+h2{
+	text-align: center;
+	color: #bf55ec;
+	font-size: 25px;
+	margin-top: 40px;
+
+}
+h4{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 40px;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+}
+.color{
+	color: #bf55ec;
+}
+.services{
+	text-align: left;
+}
+p{
+	word-spacing: 5px;
+	letter-spacing: 2px;
+}
+.light{
+	color: #bf55ec;
+}
+
+
+
